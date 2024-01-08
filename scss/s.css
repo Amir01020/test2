@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header nav a {
+  text-decoration: none;
+}
+header .pk a {
+  color: red;
+}
+header .mob {
+  display: none;
+}
+header .mob a {
+  color: green;
+}
+
+@media (max-width: 768px) {
+  header .mob {
+    display: flex;
+  }
+  header .pk {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  header .mob {
+    display: flex;
+  }
+  header .mob a {
+    color: aqua;
+  }
+  header .pk {
+    display: none;
+  }
+}
+@media (max-width: 300px) {
+  header .mob {
+    display: flex;
+  }
+  header .mob a {
+    color: red;
+  }
+  header .pk {
+    display: none;
+  }
+}/*# sourceMappingURL=s.css.map */
